@@ -1,0 +1,141 @@
+h1{ /*Center page title "Google"*/
+    text-align: center;
+    font-size: 80px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    padding-top: 250px;
+    margin: 10px;
+}
+
+#text{ /*input form style*/
+    border-radius: 18px;
+    width: 600px;
+    height: 30px;
+}  
+
+.container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.form{ /*form size*/
+    align-items: center;
+}
+
+/*Google letters style*/
+span.c1 {
+    color: blue;
+  }
+  span.c2 {
+    color: red;
+  }
+  span.c3 {
+    color: rgba(255, 170, 0, 0.814);
+  }
+  span.c4 {
+    color: blue;
+  }
+  span.c5 {
+    color: green;
+  }
+  span.c6 {
+    color: red;
+  }
+
+/*link style*/
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  float: right;
+}
+
+nav ul li { /*links in topleft corner of webpage*/
+  display: inline-block;
+  margin-left: 10px;
+}
+
+nav ul li a { /*styling for the links in top left corner of the webpage*/
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  color: black;
+  text-decoration: none;
+  padding: 5px 10px;
+}
+
+nav ul li a:hover {
+  text-decoration:underline;
+  color: black;
+}
+
+nav ul .profile{/*styling for profile button in top left corner of webpage*/
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border-width: 0px;
+  background-color: rgb(152, 3, 38);
+  display: flex;
+  align-items: center;
+  justify-content:baseline;
+  font-size: 18px;
+  display: inline-block;
+  cursor: pointer;
+}
+
+nav ul .profile a{
+  text-decoration: none;
+}
+
+nav ul button:hover{
+  border-width:2px;
+  border-color: rgb(194, 194, 194);
+}
+
+
+.add-links{ /*styling for bookmarks underneath the google search bar*/
+  align-items: center;
+  display: flex;
+  padding-top: 20px;
+  padding-right: 55px;
+  justify-content: center;
+  height: 100px; /* Adjust the height of the container */
+  margin-bottom: 5px;
+  text-decoration: none;
+}   
+.add-links button {
+  height:100px;
+  width:100px;
+  padding: 10px 20px;
+  margin: 0 5px;
+  border: none;
+  border-radius: 20px;
+  background-color: white;
+  font-size: 16px;
+  cursor: pointer;
+  
+}
+
+.add-links button:hover{
+  background-color: rgb(194, 194, 194);
+}
+
+.add-links button a{
+  align-content: center;
+  text-decoration: none;
+  color: black;
+}
+
+.add-links button a:hover{
+  text-decoration: underline;
+}
+
+.logo {
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  margin-right: 5px;
+}
+
